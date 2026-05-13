@@ -1,0 +1,153 @@
+PODS:
+  - Amplify (1.30.4):
+    - Amplify/Default (= 1.30.4)
+  - Amplify/Default (1.30.4)
+  - amplify_api_ios (0.0.1):
+    - Amplify (= 1.30.4)
+    - amplify_core
+    - AmplifyPlugins/AWSAPIPlugin (= 1.30.4)
+    - Flutter
+    - SwiftFormat/CLI
+    - SwiftLint (= 0.48.0)
+  - amplify_auth_cognito_ios (0.0.1):
+    - Amplify (= 1.30.4)
+    - amplify_core
+    - AmplifyPlugins/AWSCognitoAuthPlugin (= 1.30.4)
+    - Flutter
+    - ObjectMapper
+  - amplify_core (0.0.1):
+    - Flutter
+    - SwiftFormat/CLI
+    - SwiftLint (= 0.48.0)
+  - amplify_datastore (0.0.1):
+    - Amplify (= 1.30.4)
+    - amplify_core
+    - AmplifyPlugins/AWSDataStorePlugin (= 1.30.4)
+    - Flutter
+  - amplify_flutter_ios (0.0.1):
+    - Amplify (= 1.30.4)
+    - amplify_core
+    - AmplifyPlugins/AWSCognitoAuthPlugin (= 1.30.4)
+    - AWSPluginsCore (= 1.30.4)
+    - Flutter
+    - SwiftFormat/CLI
+    - SwiftLint (= 0.48.0)
+  - AmplifyPlugins/AWSAPIPlugin (1.30.4):
+    - AppSyncRealTimeClient (~> 3.1)
+    - AWSCore (~> 2.33.0)
+    - AWSPluginsCore (= 1.30.4)
+  - AmplifyPlugins/AWSCognitoAuthPlugin (1.30.4):
+    - AWSAuthCore (~> 2.33.0)
+    - AWSCognitoIdentityProvider (~> 2.33.0)
+    - AWSCognitoIdentityProviderASF (~> 2.33.0)
+    - AWSCore (~> 2.33.0)
+    - AWSMobileClient (~> 2.33.0)
+    - AWSPluginsCore (= 1.30.4)
+  - AmplifyPlugins/AWSDataStorePlugin (1.30.4):
+    - AWSCore (~> 2.33.0)
+    - AWSPluginsCore (= 1.30.4)
+    - SQLite.swift (= 0.13.2)
+  - AppSyncRealTimeClient (3.2.0):
+    - Starscream (= 4.0.8)
+  - AWSAuthCore (2.33.10):
+    - AWSCore (= 2.33.10)
+  - AWSCognitoIdentityProvider (2.33.10):
+    - AWSCognitoIdentityProviderASF (= 2.33.10)
+    - AWSCore (= 2.33.10)
+  - AWSCognitoIdentityProviderASF (2.33.10):
+    - AWSCore (= 2.33.10)
+  - AWSCore (2.33.10)
+  - AWSMobileClient (2.33.10):
+    - AWSAuthCore (= 2.33.10)
+    - AWSCognitoIdentityProvider (= 2.33.10)
+    - AWSCognitoIdentityProviderASF (= 2.33.10)
+    - AWSCore (= 2.33.10)
+  - AWSPluginsCore (1.30.4):
+    - Amplify (= 1.30.4)
+    - AWSCore (~> 2.33.0)
+  - Flutter (1.0.0)
+  - flutter_local_notifications (0.0.1):
+    - Flutter
+  - ObjectMapper (4.4.2)
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - SQLite.swift (0.13.2):
+    - SQLite.swift/standard (= 0.13.2)
+  - SQLite.swift/standard (0.13.2)
+  - Starscream (4.0.8)
+  - SwiftFormat/CLI (0.57.2)
+  - SwiftLint (0.48.0)
+
+DEPENDENCIES:
+  - amplify_api_ios (from `.symlinks/plugins/amplify_api_ios/ios`)
+  - amplify_auth_cognito_ios (from `.symlinks/plugins/amplify_auth_cognito_ios/ios`)
+  - amplify_core (from `.symlinks/plugins/amplify_core/ios`)
+  - amplify_datastore (from `.symlinks/plugins/amplify_datastore/ios`)
+  - amplify_flutter_ios (from `.symlinks/plugins/amplify_flutter_ios/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_local_notifications (from `.symlinks/plugins/flutter_local_notifications/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - Amplify
+    - AmplifyPlugins
+    - AppSyncRealTimeClient
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+    - AWSPluginsCore
+    - ObjectMapper
+    - SQLite.swift
+    - Starscream
+    - SwiftFormat
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  amplify_api_ios:
+    :path: ".symlinks/plugins/amplify_api_ios/ios"
+  amplify_auth_cognito_ios:
+    :path: ".symlinks/plugins/amplify_auth_cognito_ios/ios"
+  amplify_core:
+    :path: ".symlinks/plugins/amplify_core/ios"
+  amplify_datastore:
+    :path: ".symlinks/plugins/amplify_datastore/ios"
+  amplify_flutter_ios:
+    :path: ".symlinks/plugins/amplify_flutter_ios/ios"
+  Flutter:
+    :path: Flutter
+  flutter_local_notifications:
+    :path: ".symlinks/plugins/flutter_local_notifications/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+
+SPEC CHECKSUMS:
+  Amplify: 4e41668c8801667e174ab50c12bc3099c71a257f
+  amplify_api_ios: b3beafecbfb578f5f00490fdf48deb1f1f94b187
+  amplify_auth_cognito_ios: 1eb4d4106133efec809dcaf73ccba5f4cf629b7b
+  amplify_core: 6b0b5da4041cfd4c1887790dce4e7d5a6ca2f10f
+  amplify_datastore: 245a616f6ad786b798bb5e8d01c12a4bb2fd4f48
+  amplify_flutter_ios: 0e37ae2de5b77e8f64bf0a0cc87e838fb110c55e
+  AmplifyPlugins: 1335f0919aa07329df58685a020f2311c75a5176
+  AppSyncRealTimeClient: 35c0d2ae28234a9f5daba5dc31402acf45ad802f
+  AWSAuthCore: dfaed2a858cdb320c6c9c5c94c4de97bbaa76dad
+  AWSCognitoIdentityProvider: 4cb2d157236eb5da17c8acc18e6c2e3b7b3a739e
+  AWSCognitoIdentityProviderASF: af81ced9e3d1e14634e33abbd2343c2c9b5c8138
+  AWSCore: 3c1a3dad47fcf9db8bebc633f296f10b690328c6
+  AWSMobileClient: 9df04a49060cae075dbba851c8281e1f0c90d112
+  AWSPluginsCore: f2188458c27e6cb09597c67876f80611d14275d7
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_local_notifications: ef18f0537538fcd18e9106b3ddc91cc10b4e579a
+  ObjectMapper: e6e4d91ff7f2861df7aecc536c92d8363f4c9677
+  shared_preferences_foundation: 9e1978ff2562383bd5676f64ec4e9aa8fa06a6f7
+  SQLite.swift: 4fc2be46c36392e3b87afe6fe7f1801c1daa07ef
+  Starscream: 19b5533ddb925208db698f0ac508a100b884a1b9
+  SwiftFormat: 7a87845c4d54d5c1600e46b4d2d02408aab3a129
+  SwiftLint: 284cea64b6187c5d6bd83e9a548a64104d546447
+
+PODFILE CHECKSUM: 9182e3ca9e3ff1ac7ce63864d84c0e4ca4ebb96f
+
+COCOAPODS: 1.16.2

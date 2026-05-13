@@ -1,0 +1,12 @@
+type TodoTable @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  timestamp: AWSDateTime
+  device_id: String
+  dev_eui: String
+  temperature: String
+  moisture: String
+  application_id: String
+  gateway_id: String
+  payload: String
+}
+ 

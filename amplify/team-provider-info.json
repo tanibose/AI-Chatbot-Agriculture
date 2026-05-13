@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cysecagri-dev-162457-authRole",
+      "UnauthRoleArn": "arn:aws:iam::546051441593:role/amplify-cysecagri-dev-162457-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::546051441593:role/amplify-cysecagri-dev-162457-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-cysecagri-dev-162457-deployment",
+      "UnauthRoleName": "amplify-cysecagri-dev-162457-unauthRole",
+      "StackName": "amplify-cysecagri-dev-162457",
+      "StackId": "arn:aws:cloudformation:us-east-1:546051441593:stack/amplify-cysecagri-dev-162457/a2dee550-e892-11ee-8691-12fedd31d66d",
+      "AmplifyAppId": "d1gtxvnziqlddm"
+    },
+    "categories": {
+      "auth": {
+        "cysecagri168bb0cb": {}
+      },
+      "api": {
+        "cysecagri": {}
+      },
+      "storage": {
+        "s3355e98c7": {}
+      }
+    }
+  }
+}
